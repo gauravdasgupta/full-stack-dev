@@ -8,6 +8,7 @@ import { BlogCorouselComponent } from './blog-corousel/blog-corousel.component';
 import { BlogFooterComponent } from './blog-footer/blog-footer.component';
 import { BlogsListComponent } from './blogs-list/blogs-list.component';
 import { BlogReaderComponent } from './blog-reader/blog-reader.component';
+import { WorkInProgressComponent } from './work-in-progress/work-in-progress.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { BlogReaderComponent } from './blog-reader/blog-reader.component';
     BlogCorouselComponent,
     BlogFooterComponent,
     BlogsListComponent,
-    BlogReaderComponent
+    BlogReaderComponent,
+    WorkInProgressComponent
   ],
   imports: [
     BrowserModule,
